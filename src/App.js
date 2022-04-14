@@ -11,6 +11,7 @@ function App() {
       <h1>App component</h1>
       <code>{JSON.stringify(value)}</code>
       <Dummy prop1="this is prop 1" />
+      <Dummy prop2="this is prop 2" />
     </div>
   );
 }
