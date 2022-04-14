@@ -10,7 +10,7 @@ function App() {
     <div>
       <h1>App component</h1>
       <code>{JSON.stringify(value)}</code>
-      <Dummy />
+      <Dummy prop1="this is prop 1" />
     </div>
   );
 }
